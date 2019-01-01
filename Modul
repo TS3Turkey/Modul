@@ -1,0 +1,74 @@
+ipb için kullandığım modülün benzerini whmcs için kullanmak istiyorum.
+
+Demo IPBFroum sistemi
+https://ipb.bilgeenformasyon.com/admin/
+Login:P-P
+Passw:94210360
+
+Sistemden Kısaca Bahsetmek gerekirse;
+Müşteriler için daha önceden belirlemiş olduğum lisans anahtarlarını ödeme onayı sonrası müşterilere teslim edecek
+Ama Nasıl ürün gurubu oluyorsa her ürün için farklı lisans anahtarı grubu olması gerekli.
+Şimdi diyeceksinizki, Şimdi 3 ürün  var Lisans paneline de 3 gurup eklersek yarın 20 ürün olduğunda nasıl başa cıkılacak.
+işte tam bu noktada IPB de Güzel bir mantık kullanılmış.
+Eğere Ürün ayarlarında bu modül seçilirse;
+http://prntscr.com/m1ysmf
+
+Otomatik olarak Modülün kendi alanında bir ürün Lisans grubu oluşturuluyor..
+http://prntscr.com/m1ysxk
+
+ürün Lisans grubunun özellkleri
+
+O gruba ait kullanılmış ve kullanılmamış tüm lisans anahtarlarını göstermek;
+http://prntscr.com/m1ytb1
+
+O gruba ait yeni lisans anahtarlarını içe aktarabilme özelliği
+http://prntscr.com/m1ytkb
+
+O gruba ait lisansları Yenileme yani F5 özelliği ;)
+http://prntscr.com/m1ytvl
+
+-----------------
+lisans anahtarlarını göstermek:
+
+Hangi ürünün hangi müşteriye hangi tarihte verildiğine dait bilgi.
+http://prntscr.com/m1yykg
+ve bir müşteriye teslim edilmiş lisansının silmesinin ve değiştrilmesinin mümkün OLMAMASINI istiyorum.
+ayrıca kullanılMAMIŞ lisansları silebilme zelliği..
+
+
+
+Yeni lisans Anahtarı ekleme (içe aktarma):
+
+Bu işlem seçildiğinde;
+Belirtilen ürün için bir inport eidtorü açılmalı ve her satır 1 lsians anatarı anlamına gelmeli.
+http://prntscr.com/m1yvk3
+
+
+Stock yenileme işlemi her grup için olmasada bu işlemi toplu olarak yapacak bir bton olmalı
+http://prntscr.com/m1yxo0
+
+-------------------------------
+"""
+ayrıca
+
+http://prntscr.com/m1yykg
+
+diyelimki bir müşteriye bir lisans anahtarı verdim.
+ve lisans anahtarlarında bir sorun var çalışmıyor.
+bu lisans anahtarını (WHMCS için söylüyorum) Müşteri bilgilerinin veya fatura bilgilerinin bulunduğu alandan 
+mevcutta o grup için olan ve kullanılMAMIŞ bir lisans anahatarı ile değiştrilmesi için bir bulun eklenmeli
+http://prntscr.com/m1yzud (WHMCS örnek)
+http://prntscr.com/m1z0me
+http://prntscr.com/m1z0w8
+
+Çalışmayan lisans anahtarıda bir kullanıcya tanımlandığı için birdaha kullanılamamamlı..
+http://prntscr.com/m1z17x
+"""
+Yeni lisans oluşturma özelliği şart değil.
+ancak olursa süper olur.
+------------
+
+Son olarak Müşteri panelinde, bir müşteri ürün yönetimine 
+girdiğinde resimdeki bilgiler yer almalı...
+http://prntscr.com/m1z2l2
+
